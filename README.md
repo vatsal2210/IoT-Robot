@@ -15,36 +15,6 @@ Bug Fixes: Yes
 Security Fixes: Yes
 Releases: Yes
 
----------------------------------------------------------------------------------------------------------
- 
-Hardware Part: 
-No.	Component 	Purpose 	Material	Cost (Rs)
-1	Robot Chassis	Combination of all Components	Laser Cutting at FabLab, Cept Uni	100
-2 Raspberry PI 2	Controller 	Readymade	2600
-3 Raspberry Pi Camera	Live Streaming 	Readymade	1500
-4	Ultrasonic sensor	Distance Measurement 	Readymade	100
-5 IR Sensor	Obstacle Avoidance	Readymade	100
-6 Motors and Wheel	Movements 	Readymade	200
-7	Motor Driver Board	Control Motors 	Homemade	100
-8	Camera Case	Hold the camera	3D Printing	100
-9	Power supply	Supply the Robot	Readymade	100
-Total	4900
-
-Software Part: 
-No.	Software	            Purpose
-1	  JavaScript	
-2	  HTML/CSS	            Website layout 
-3	  JQuery	              Show Sensors data on website
-4   Ajax	                Do not refresh page while control the robot
-5	  MySQL Database	      Store Sensors Data and display on screen
-6	  Servlet/JSP	          Page for control different buttons for movements 
-7	  Tomcat server	        Local server installed at Raspberry Pi
-8   MobaXtreme	          Connect with Raspberry Pi
-9	  WinSCP, Putty	        Machine to Machine Communication
-10	Cura	                3D printing tool to design Case
-11	Rhinoceros5	          Design for Robot chassis for Laser cutting
-
-
 -------------------------------------------------------------------------------------------------------------
 GPIO
 	
