@@ -4,25 +4,31 @@
 
 <!-- TOC -->
 
-- [1. Description](#1-description)
-- [2. Software Versions](#2-software-versions)
-- [3. Background/Motivation](#3-backgroundmotivation)
-- [4. Aims & Objectives](#4-aims--objectives)
-- [5. Technology](#5-technology)
-- [6. Design Methodology](#6-design-methodology)
-- [7. Implemented System](#7-implemented-system)
-- [8. Results](#8-results)
-- [9. Conclusion](#9-conclusion)
-- [10. Future Work](#10-future-work)
+- [1. Demo](#1-demo)
+- [2. Description](#2-description)
+- [3. Software Versions](#3-software-versions)
+- [4. Background/Motivation](#4-backgroundmotivation)
+- [5. Aims & Objectives](#5-aims--objectives)
+- [6. Technology](#6-technology)
+- [7. Design Methodology](#7-design-methodology)
+- [8. Implemented System](#8-implemented-system)
+- [9. Results](#9-results)
+- [10. Conclusion](#10-conclusion)
+- [11. Future Work](#11-future-work)
 
 <!-- /TOC -->
 
-<a id="markdown-1-description" name="1-description"></a>
-## 1. Description
+<a id="markdown-1-demo" name="1-demo"></a>
+## 1. Demo
+
+[Source Link](https://www.youtube.com/watch?v=EQoNMig4XXY)
+
+<a id="markdown-2-description" name="2-description"></a>
+## 2. Description
 The purpose of this project is to control robot with an interface board of the Raspberry Pi, sensors and software to full fill real time requirement. Controlling DC motors, different sensors, camera interfacing with raspberry Pi using GPIO pin. Live streaming, Command the robot easily, sends data of different sensors which works automatically or control from anywhere at any time. Design of the website and control page of Robot is done using Java tools and HTML. This system works on IoT concept which is Internet of Things, where all the physical devices will connect with digital systems. This will enable raspberry pi to be used for more robotic applications and cut down the cost for building an IoT robot.
 
-<a id="markdown-2-software-versions" name="2-software-versions"></a>
-## 2. Software Versions
+<a id="markdown-3-software-versions" name="3-software-versions"></a>
+## 3. Software Versions
 
 It required number of Programming Tools & Languages to build a project. 
 
@@ -38,8 +44,8 @@ It required number of Programming Tools & Languages to build a project.
 - Putty
 - Pi4j
 
-<a id="markdown-3-backgroundmotivation" name="3-backgroundmotivation"></a>
-## 3. Background/Motivation
+<a id="markdown-4-backgroundmotivation" name="4-backgroundmotivation"></a>
+## 4. Background/Motivation
 - User can see live streaming from computer device as website or phone application as camera is attached. 
 - Different buttons are there such as Forward, Reverse, Left, Right and Stop to control the Robot. 
 - Different sensors are attached with the device such as Ultrasonic sensor, IR sensors to detect obstacle and distance and generate notifications and sends data to user. 
@@ -48,8 +54,8 @@ Security is always important at all the time, so there is unique login ID and pa
 - First user have to sign up and using unique ID they will able to control it from anywhere at any time.
 
 
-<a id="markdown-4-aims--objectives" name="4-aims--objectives"></a>
-## 4. Aims & Objectives
+<a id="markdown-5-aims--objectives" name="5-aims--objectives"></a>
+## 5. Aims & Objectives
 To develop an IoT technology based Robot can be controlled by a mobile devices/ Laptops over the Wi-Fi from anywhere at any time.
 The core objectives are:
 - Gather system requirements
@@ -62,22 +68,22 @@ The core objectives are:
 - Evaluate and test the system
 - Maintain system	
 
-<a id="markdown-5-technology" name="5-technology"></a>
-## 5. Technology
+<a id="markdown-6-technology" name="6-technology"></a>
+## 6. Technology
 - The technology used in the project is Javas the libraries available are only in pi4j. 
 - Also it allows creating a user interface so that the user can see and control certain movements of the robot. 
 - I use the wireless technology to transmit data of the raspberry pi to the users system.
 
-<a id="markdown-6-design-methodology" name="6-design-methodology"></a>
-## 6. Design Methodology
+<a id="markdown-7-design-methodology" name="7-design-methodology"></a>
+## 7. Design Methodology
 
 - The design consists more on actual planning of hardware part than the code to be created. 
 - A number of software and hardware implementation techniques were used to design and develop the system. Fig. 1 shows the block diagram of system. 
 - Block diagram is shows as below:
 
 
-<a id="markdown-7-implemented-system" name="7-implemented-system"></a>
-## 7. Implemented System
+<a id="markdown-8-implemented-system" name="8-implemented-system"></a>
+## 8. Implemented System
 
 - The system is implemented with Laser cutting tool and 3D printing tool. Robot chassis is designed with Laser cutting and Ultrasonic sensor and Camera case is designed with 3D priming.
 - Laser cutting machine is shown below and the full implemented chassis of robot. 
@@ -94,8 +100,8 @@ The core objectives are:
 ![3D Printing](./photos/3D2.jpg)
 ![3D Printing](./photos/3D3.jpg)
 
-<a id="markdown-8-results" name="8-results"></a>
-## 8. Results
+<a id="markdown-9-results" name="9-results"></a>
+## 9. Results
 
 - The aim of the project is to develop a Robot on IoT based concept. 
 - It is working as buddy or family Member because you have to command it and control from anywhere at any time. 
@@ -108,8 +114,8 @@ Final IoT Robot design is as shown below:
 
 ![Final](./photos/final.jpg)
 
-<a id="markdown-9-conclusion" name="9-conclusion"></a>
-## 9. Conclusion
+<a id="markdown-10-conclusion" name="10-conclusion"></a>
+## 10. Conclusion
 
 - To get to the aim of a project there will be always a set of objectives, to achieve that objectives we need to know how where and with what resource is the step towards completing the objectives taken. 
 - Now in this project too to get to the aim of the project there was a set of objectives, which gradually changed as the project research was completed and then while testing a certain technology the objectives again changed due to the failure of the method. Now the first thing of the project is a good research, I had to do a wide and a strong research before I started to put my objectives as this technology was new in market. 
@@ -121,8 +127,8 @@ The research for the project was done using Advanced Google search and also from
 - Then during the programming of the server client interfaces the problems of calling functions with a button press. One of the main challenges that No output comes when some functions are called from software side. Other than the small problem the buddy robot works fine and meets all its purpose. 
 - If given an opportunity to work again on the same technology i.e. the raspberry pi and IoT technology or on a project like this where the raspberry pi is used for any kind off application I would be happy to take it up.
 
-<a id="markdown-10-future-work" name="10-future-work"></a>
-## 10. Future Work
+<a id="markdown-11-future-work" name="11-future-work"></a>
+## 11. Future Work
 
 In the future this raspberry pi technology can be used in various different fields of work. The buddy robot can be made autonomous with the help of more sensor, gyroscope, compass and a GPS. So that it can be set to a target or a specific area where in can monitor. The robot can also be developed into an advanced robot toy for young people. Others future works described below:
 -	Face recognition: All the family members face images are stored in controller when an unknown person will come at door, it will create alert and click the image and send it to user. 
