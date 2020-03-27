@@ -1,6 +1,6 @@
 # IoT-Robot
 
-[radio](./photos/radio.png)
+![radio](./photos/radio.png)
 
 <!-- TOC -->
 
@@ -26,17 +26,17 @@ The purpose of this project is to control robot with an interface board of the R
 
 It required number of Programming Tools & Languages to build a project. 
 
-Eclipse Kepler - V4.3.2
-HTML/CSS
-SERVLET/JSP - 3.0.0
-Java Script
-JQuery/Ajax
-MySQL database
-Tomcat Web Server
-MobaXtreme
-WinSCP
-Putty
-Pi4j
+- Eclipse Kepler - V4.3.2
+- HTML/CSS
+- SERVLET/JSP - 3.0.0
+- Java Script
+- JQuery/Ajax
+- MySQL database
+- Tomcat Web Server
+- MobaXtreme
+- WinSCP
+- Putty
+- Pi4j
 
 <a id="markdown-3-backgroundmotivation" name="3-backgroundmotivation"></a>
 ## 3. Background/Motivation
@@ -82,17 +82,17 @@ The core objectives are:
 - The system is implemented with Laser cutting tool and 3D printing tool. Robot chassis is designed with Laser cutting and Ultrasonic sensor and Camera case is designed with 3D priming.
 - Laser cutting machine is shown below and the full implemented chassis of robot. 
 
-[Laser Cutting](./photos/laser1.jpg)
-[Laser Cutting](./photos/laser2.jpg)
-[Laser Cutting](./photos/laser3.jpg)
-[Laser Cutting](./photos/laser4.jpg)
-[Laser Cutting](./photos/laser5.jpg)
+![Laser Cutting](./photos/laser1.jpg)
+![Laser Cutting](./photos/laser2.jpg)
+![Laser Cutting](./photos/laser3.jpg)
+![Laser Cutting](./photos/laser4.jpg)
+![Laser Cutting](./photos/laser5.jpg)
 
 - Using machine Ultimaker 2 case of Raspberry Pi camera is designed and working with it is shown below. The full body requires time around 1 hours to print it. 
 
-[3D Printing](./photos/3D1.jpg)
-[3D Printing](./photos/3D2.jpg)
-[3D Printing](./photos/3D3.jpg)
+![3D Printing](./photos/3D1.jpg)
+![3D Printing](./photos/3D2.jpg)
+![3D Printing](./photos/3D3.jpg)
 
 <a id="markdown-8-results" name="8-results"></a>
 ## 8. Results
@@ -102,11 +102,11 @@ The core objectives are:
 - If a personal wants to find something he/she has to command it from live steaming can see the actual scenario at that place and easily find out that object.
 -  It works as to take care for children’s, pet at home, too. 
 
-[Flow Chart](./photos/flowchart.png)
+![Flow Chart](./photos/flowchart.png)
 
 Final IoT Robot design is as shown below: 
 
-[Final](./photos/final.jpg)
+![Final](./photos/final.jpg)
 
 <a id="markdown-9-conclusion" name="9-conclusion"></a>
 ## 9. Conclusion
