@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#gallery {
+	/* The width of the gallery */
+	width: 740px;
+	overflow: hidden;
+	float: left;
+}
+#slides {
+	/* This is the slide area */
+	height: 286px;
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width: 740px;
+	float: left;
+}
+.slide {
+	float: right;
+}
+#slide-menu {
+	/* This is the container for the thumbnails */
+	height: 34px;
+	background: #8c2a2b;
+	width: 740px;
+	float: left;
+	behavior: url(ie-css3.htc);
+}
+#slide-menu ul {
+	margin: 0 0 0 0px;
+	padding: 0px;
+}
+#slide-menu li {
+	/* Every thumbnail is a li element */
+	width: auto;
+	display: inline-block;
+	list-style: none;
+	height: 34;
+	overflow: hidden;
+	display: block;
+	float: left;
+}
+#slide-menu li a {
+	font: 14px/34px HelveticaNeueLTStd47LightCondensed, Tahoma, Geneva, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0px 14px 0 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-right:1px solid #fff;
+}
+#slide-menu li a.nobdr {
+	border-right: none !important;
+}
+#slide-menu li.inact:hover {
+		background:#72191a;
+}
+#slide-menu li.act, li.act:hover {
+	/* The active state of the thumb */
+	background:#72191a;
+}
+#slide-menu li.act a {
+	cursor: pointer;
+	padding: 0px 14px 0 15px;
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:'HelveticaNeueLTStd-Lt';
+	src: url('../fonts/HelveticaNeueLTStd-Lt.eot');
+	src: url('../fonts/HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTStd-Lt.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FB02;
+}
+
+@font-face {
+	font-family:'HelveticaNeueLTStd-LtCn';
+	src: url('../fonts/HelveticaNeueLTStd-LtCn.eot');
+	src: url('../fonts/HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-LtCn.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-LtCn.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTStd-LtCn.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTStd-LtCn.svg#HelveticaNeueLTStd-LtCn') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-FB02;
+}
+
+@font-face {
+	font-family:'HelveticaNeueLTStd-Th';
+	src: url('../fonts/HelveticaNeueLTStd-Th.eot');
+	src: url('../fonts/HelveticaNeueLTStd-Th.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-Th.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-Th.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTStd-Th.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th') format('svg');
+	font-weight: 250;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FB02;
+}
+
+@font-face {
+	font-family:'GeosansLight-Regular';
+	src: url('../fonts/GeosansLight.eot');
+	src: url('../fonts/GeosansLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GeosansLight.woff') format('woff'),
+		url('../fonts/GeosansLight.ttf') format('truetype'),
+		url('../fonts/GeosansLight.otf') format('opentype'),
+		url('../fonts/GeosansLight.svg#GeosansLight-Regular') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0005-E00B;
+}
+
+@font-face {
+	font-family:'EuphemiaCAS-Regular';
+	src: url('../fonts/EuphemiaCAS.eot');
+	src: url('../fonts/EuphemiaCAS.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/EuphemiaCAS.woff') format('woff'),
+		url('../fonts/EuphemiaCAS.ttf') format('truetype'),
+		url('../fonts/EuphemiaCAS.otf') format('opentype'),
+		url('../fonts/EuphemiaCAS.svg#EuphemiaCAS-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2212;
+}
+
+@font-face {
+    font-family: 'EuphemiaRegular';
+    src: url('../fonts/euphemia.eot');
+    src: url('../fonts/euphemia.eot') format('embedded-opentype'),
+         url('../fonts/euphemia.woff') format('woff'),
+         url('../fonts/euphemia.ttf') format('truetype'),
+         url('../fonts/euphemia.svg#EuphemiaRegular') format('svg');
+}
+
+@font-face {
+	font-family:'HelveticaNeueLTStd-ThCn';
+	src: url('../fonts/HelveticaNeueLTStd-ThCn.eot');
+	src: url('../fonts/HelveticaNeueLTStd-ThCn.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-ThCn.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTStd-ThCn.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTStd-ThCn.svg#HelveticaNeueLTStd-ThCn') format('svg');
+	font-weight: 250;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-FB02;
+}
+
+/* for testing */
+
+@font-face {
+	font-family: 'GreyscaleBasic';
+	src: url('../fonts/GreyscaleBasic.eot?') format('eot'), 
+	     url('../fonts/GreyscaleBasic.woff') format('woff'), 
+	     url('../fonts/GreyscaleBasic.ttf')  format('truetype'),
+	     url('../fonts/GreyscaleBasic.svg#GreyscaleBasic') format('svg');
+}
+
+@font-face {
+	font-family:'GillSansMT-Regular';
+	src: url('../fonts/GillSansMT_latin+latin-ext_gdi.eot');
+	src: url('../fonts/GillSansMT_latin+latin-ext_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GillSansMT_latin+latin-ext_gdi.woff') format('woff'),
+		url('../fonts/GillSansMT_latin+latin-ext_gdi.ttf') format('truetype'),
+		url('../fonts/GillSansMT_latin+latin-ext_gdi.svg#GillSansMT-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title>The page you requested cannot be found!</title>
+<base href="http://elementzonline.com/" />
+<style type="text/css">
+   
+</style>
+<link href="http://elementzonline.com/image/data/fav-icon.png" rel="icon" />
+<!-- Default style sheets  -->
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/elementz/css/stylesheet.css" />
+<!-- elementz project style sheets -->
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/elementz/css/elementz.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/elementz/css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/elementz/css/banner.css" />
+<!-- Common Scripts Start -->
+<!--<script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.7.1.min.js"></script>-->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script type="text/javascript" src="catalog/view/theme/elementz/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="catalog/view/theme/elementz/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="catalog/view/theme/elementz/js/fontsmoothie.min.js"></script>
+<!-- Level-2 -->
+<script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
+<script type="text/javascript" src="catalog/view/javascript/common.js"></script>
+<!-- Common Scripts Ends -->
+<!--[if IE 7]> 
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/elementz/css/ie7.css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/elementz/css/ie6.css" />
+<script type="text/javascript" src="catalog/view/javascript/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#logo img');
+</script>
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56381269-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script>
+//Click to top Starts
+//var $elem = $('#content');
+
+$(document).ready(function() { 
+ 	$('#nav_up').fadeIn('slow');
+				
+		$(window).bind('scrollstart', function(){
+			$('#nav_up').stop().animate({'opacity':'0.2'});
+		});
+		$(window).bind('scrollstop', function(){
+			$('#nav_up').stop().animate({'opacity':'1'});
+		});
+		
+                $('#nav_up').click(function (e) {
+                   $('html, body').animate({scrollTop: '0px'}, 800);
+		});
+});
+ //Click to top Ends
+</script>
+<link rel="stylesheet" type="text/css" href="inr-font/font.css" />
+<script type="text/javascript" src="inr-font/inr.js"></script>
+</head>
+<body>
+    <!-- outer top wrapper container starts -->
+<div id="outer_top_wrapper">
+	<!-- outer top box container starts -->
+    <div id="outer_top_box">
+    <div id="notification"> </div>
+    	<!-- left wrapper container starts -->
+        <div id="left_wrapper">
+        	<!--Top bar starts here-->
+            <div class="topbar">
+            	<div class="topicons">
+                	<ul>
+                        <li class="wishbtn"><a href="http://elementzonline.com/my-wishlist.html" id="wishlist-total">Wishlist(0)</a></li>
+                        <li class="loginbtn">
+                        			<a href="http://elementzonline.com/login.html">login</a><!--<a href="http://elementzonline.com/register.html">Signup</a>-->			                        </li>
+                        <li id="cart-total" class="cartbtn"><a href="http://elementzonline.com/cart.html">Cart(0)</a></li>                    </ul>
+               </div>
+            </div>
+            <!--Top bar ends here-->
+        </div>
+        <!-- left wrapper container ends -->
+    </div>
+    <!-- outer top box container ends -->	
+</div>
+<!-- outer top wrapper container ends -->
+<!-- #main-wrapper starts -->
+<div id="main-wrapper">
+    <!-- main #container starts -->
+    <div id="container">
+<div id="header">
+      <!-- top left logo container starts -->
+            <div id="logo">
+                <a href="http://elementzonline.com/home.html"><img src="http://elementzonline.com/image/data/logo.png" title="Elementz Engineers Guild Private Limited" alt="Elementz Engineers Guild Private Limited"  width="285" height="99"/></a>
+            </div>
+    <!-- top left logo container ends -->
+            <!-- top right search container starts -->
+            <div id="top_right_search">
+            	<!-- search container starts -->
+                <div class="searchcont">
+                    <div id="search">
+                        <input type="text" name="search" id="text1" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;" onpaste="return false;" class="search-field" placeholder="Search our products" value="" />
+                        <div class="button-search">SEARCH</div>
+                    </div>
+                    <span id="error1" style="color: Red; display: none">* Special Characters not allowed<span>
+                </div>
+                <!-- search container ends -->
+                <!-- bottom right search container starts -->
+                <div id="bottom_right_search">    
+                    
+                    <a href="http://elementzonline.com/contact-us.html" class="sub_enq">Submit Enquiry</a><span>/</span>
+                    <a href="http://elementzonline.com/contact-us.html" class="cust_care">Customer Care</a><span>/</span>                   
+                    <a href="#" class="sign_up">
+                     			<a href="http://elementzonline.com/register.html">Signup</a>			                    </a>
+                </div>
+                <!-- bottom right search container ends -->
+            </div>
+            <!-- top right search container ends -->          
+            
+  
+  <div id="welcome">
+              </div>
+  <!--
+  <div class="links">
+      <a href="http://elementzonline.com/home.html">Home</a>
+      <a href="http://elementzonline.com/my-wishlist.html" id="wishlist-total">Wishlist(0)</a>
+      <a href="http://elementzonline.com/user-dashboard.html">My Account</a>
+      <a href="http://elementzonline.com/cart.html">Cart(<b>0</b>)</a>
+      <a href="http://elementzonline.com/checkout.html">Checkout</a>
+  </div> -->
+</div>
+
+     <!-- navigation wrapper container starts -->
+            <div id="menu">
+            	<div id='cssmenu'>
+                    <ul>
+                       <li class='active'><a href='http://elementzonline.com/home.html'>Home</a></li>
+                       <li><a href='http://elementzonline.com/about-us.html'>About Us</a></li>                    
+<!--                       <li class='has-sub'><a href='#'>Projects</a>
+                          <ul>
+                             <li class='has-sub'><a href='#'>Product 1</a>
+                                <ul>
+                                   <li><a href='#'>Sub Product</a></li>
+                                   <li><a href='#'>Sub Product</a></li>
+                                </ul>
+                             </li>
+                             <li class='has-sub'><a href='#'>Product 2</a>
+                                <ul>
+                                   <li><a href='#'>Sub Product</a></li>
+                                   <li><a href='#'>Sub Product</a></li>
+                                </ul>
+                             </li>
+                          </ul>
+                       </li>-->
+                       <li><a href='http://elementzonline.com/PCB-design.html'>PCB Design &amp; Fabrications</a></li>
+                        <li><a href="http://forum.elementzonline.com/" target="_blank">Forum</a></li>
+                        <li><a href="http://elementztechblog.wordpress.com/" target="_blank">Blog</a></li>
+<!--              <li><a href="http://blog.elementzonline.com/" target="_blank">Blog</a></li>-->
+                       <li><a href='http://elementzonline.com/contact-us.html'>Contact Us</a></li>
+                    </ul>
+               </div>
+            </div>
+            <!-- navigation wrapper container ends -->
+<script type="text/javascript">
+        var specialKeys = new Array();
+        specialKeys.push(8); //Backspace
+        specialKeys.push(9); //Tab
+        specialKeys.push(46); //Delete
+        specialKeys.push(36); //Home
+        specialKeys.push(35); //End
+        specialKeys.push(37); //Left
+        specialKeys.push(39); //Right
+        function IsAlphaNumeric(e) {
+            var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+            var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (specialKeys.indexOf(e.keyCode) != -1 && e.charCode != e.keyCode));
+            document.getElementById("error1").style.display = ret ? "none" : "inline";
+            return ret;
+        }
+</script> 
+<div id="content" class="full-width">  <div class="breadcrumb">
+        <a href="http://elementzonline.com/home.html">Home</a>
+        <a href="http://elementzonline.com/index.php?route=error/not_found">The page you requested cannot be found!</a>
+      </div>
+  <h1>The page you requested cannot be found!</h1>
+  <div class="content">The page you requested cannot be found.</div>
+  <div class="buttons">
+    <div class="right"><a href="http://elementzonline.com/home.html" class="button">Continue</a></div>
+  </div>
+  </div>
+
+            <!-- bottom #footer-top-box container starts -->
+            <div id="footer-top-box">
+            	<!-- contents box container starts -->
+                <div id="contents_box">
+                </div>
+                <!-- contents box container ends -->
+                <!-- card box container starts -->
+              <div id="card_box">
+                	<div id="head">
+               		  <h1>Payment Options</h1>
+                    </div>
+                    <div id="card_images">
+						<img src="images/pay-mastro-card.jpg" width="51" height="32" />
+                        <img src="images/pay-american-express.jpg" width="51" height="32" />
+               	  		<img src="images/pay-payu.jpg" height="35" />
+						<img src="images/pay-net-banking.jpg" width="65" height="32" />
+                       <!--  <img src="images/pay-visa-card.jpg" width="51" height="32" /> -->
+                       <!-- <img src="images/pay-master-card.jpg" width="51" height="32" /> -->
+                       <!--  <img src="images/pay-cash-od.jpg" width="51" height="32" /> -->
+                       <!--  <img src="images/pay-easy-emi.jpg" width="51" height="32" /> -->
+                  	</div>
+                    <p><strong>100% Secure Payments : </strong>All major credit and debit cards accepted.</p>
+              </div>
+                <!-- card box container ends -->
+            </div>
+            <!-- bottom #footer-top-box container ends -->
+    <!--Footer starts here-->
+    <footer>
+      <div class="foot-line1"> 
+        <!--Payment option starts here-->
+        <div class="foot-boxes payment-optn">
+          <div class="footheads">newsletter sign up</div>
+          <div class="payline">
+          	<form class="search_go" action="">
+                        <input type="text" class="text-field_email" placeholder="Enter your email id"/>
+                        <input type="submit" class="go" value="go" />
+            </form>
+          </div>
+          <div class="social_media">
+            <span>Connect with us :</span>
+            <a href="#"><img src="images/social-media-1.jpg" width="31" height="31" /></a>
+            <a href="#"><img src="images/social-media-2.jpg" width="31" height="31" /></a>
+            <a href="#"><img src="images/social-media-3.jpg" width="31" height="31" /></a>
+            <a href="#"><img src="images/social-media-4.jpg" width="31" height="31" /></a>
+          </div>
+        </div>
+        <!--Payment option ends here--> 
+        <!--Shop nav starts here-->
+        <div class="foot-boxes shop-nav">
+          <div class="footheads">Site Map</div>
+          <div class="shopline">
+            <ul>
+              <li><a href="http://elementzonline.com/home.html">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href='http://elementzonline.com/PCB-design.html'>PCB Design</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Shop nav ends here--> 
+        <!--Order nav starts here-->
+        <div class="foot-boxes order-nav">
+          <div class="footheads">Order</div>
+          <div class="orderline">
+            <ul>
+              <li><a href="http://elementzonline.com/how-to-pay.html">How to pay</a></li>
+              <li><a href="#">Cancellation</a></li>
+              <li><a href="#">Refund</a></li>
+              <li><a href="#">Track My Order</a></li>
+              <li><a href="#">Shipping & Handling</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Order nav ends here--> 
+        <!--Help container starts here-->
+        <div class="foot-boxes help-nav">
+          <div class="footheads">Need Help</div>
+        <div class="helpline">
+            <ul>
+              <li><a href="http://elementzonline.com/contact-us.html">Contact Us</a></li>
+              <li><a href="http://elementzonline.com/index.php?route=account/return/insert">Returns</a></li>
+              <li><a href="http://elementzonline.com/sitemap.html">Site Map</a></li>
+              <li><a href="http://forum.elementzonline.com/" target="_blank">Forum</a></li>
+              <li><a href="http://elementztechblog.wordpress.com/" target="_blank">Blog</a></li>
+              <!--<li><a href="http://blog.elementzonline.com/" target="_blank">Blog</a></li>-->
+            </ul>
+        </div>
+        </div>
+        <!--Help container ends here--> 
+        <!--Contact container starts-->
+        <div class="comp-nav">
+              <div class="column">
+     <div class="footheads">Company</div>
+      <div class="compline">
+        <ul>
+                    <li><a href="http://elementzonline.com/delivery-information.html">Delivery Information</a></li>
+                    <li><a href="http://elementzonline.com/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="http://elementzonline.com/about-us.html">About Us</a></li>
+                    <li><a href="http://elementzonline.com/terms-conditions.html">Terms &amp; Conditions</a></li>
+                  </ul>
+      </div>
+  </div>
+          </div>
+        <!--Contact container ends--> 
+      </div>
+      <div class="foot-line3">
+          &copy; 2014 - 2016          <a href="#" class="no_hover">elementzonline.com.</a> All rights reserved   | <a href="http://elementzonline.com/privacy-policy.html">Privacy Policy</a> | <a href="http://elementzonline.com/terms-conditions.html">Terms of Use</a></div>
+    </footer>
+    <!--Footer ends here-->	
+    
+    
+
+
+
+
+    <!--<footer>
+  <div class="column">
+    <h3>Extras</h3>
+    <ul>
+      <li><a href="http://elementzonline.com/index.php?route=product/manufacturer">Brands</a></li>
+      <li><a href="http://elementzonline.com/index.php?route=account/voucher">Gift Vouchers</a></li>
+      <li><a href="http://elementzonline.com/affiliate-dashboard.html">Affiliates</a></li>
+      <li><a href="http://elementzonline.com/index.php?route=product/special">Specials</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>My Account</h3>
+    <ul>
+      <li><a href="http://elementzonline.com/user-dashboard.html">My Account</a></li>
+      <li><a href="http://elementzonline.com/my-orders.html">Order History</a></li>
+      <li><a href="http://elementzonline.com/my-wishlist.html">Wish List</a></li>
+      <li><a href="http://elementzonline.com/newsletter.html">Newsletter</a></li>
+    </ul>
+  </div>
+            </footer>-->
+
+
+
+    </div>
+    <!-- main #container ends -->
+</div>
+<!-- #main-wrapper ends -->
+<div id="nav_up" class="nav_up" style=""></div>
+</body></html>
